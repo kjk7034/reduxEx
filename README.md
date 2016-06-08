@@ -12,6 +12,11 @@ tabChange Component 샘플
 ### 주요 사용 webpack 명령어
 
 ```
+// 기본 설정
+npm install -g webpack
+npm install -g webpack-dev-server
+
+// 사용한 명령어
 webpack main.js main.bundle.js  --module-bind "js=babel-loader" --watch
 webpack-dev-server --progress
 ```
